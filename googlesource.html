@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google - 1998</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #f9f9f9;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #search-form {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 300px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 16px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo" src="google_logo.png" alt="Google Logo">
+    </div>
+
+    <div id="search-form">
+        <!-- Google Search Form -->
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" title="Search" autofocus>
+            <input type="submit" value="Google Search">
+        </form>
+        <!-- I'm Feeling Lucky Button (Linked to Google's About page) -->
+        <form action="https://www.google.com/doodles/about" method="GET">
+            <input type="submit" value="I'm Feeling Lucky">
+        </form>
+    </div>
+
+    <div id="footer">
+        <small>&copy; 2023 Google</small>
+    </div>
+</body>
+
+</html>
